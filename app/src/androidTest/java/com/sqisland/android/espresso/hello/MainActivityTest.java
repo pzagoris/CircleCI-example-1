@@ -22,7 +22,7 @@ public class MainActivityTest {
   @Test
   public void greet() {
     onView(withId(R.id.greeting))
-        .check(matches(withText("")));
+        .check(matches(withText("ela")));
 
     onView(withId(R.id.greet_button))
         .check(matches(withText(R.string.greet)))
