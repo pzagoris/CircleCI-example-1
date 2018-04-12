@@ -9,7 +9,7 @@ dependencies:
   pre:
     - chmod +x gradlew
     - wget "https://services.gradle.org/distributions/gradle-2.9-bin.zip"; unzip gradle-2.9-bin.zip
-    - echo Y | sudo sdkmanager --licenses
+    - sh accept_android_licenses.sh
 
 test:
   override:
